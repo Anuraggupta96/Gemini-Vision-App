@@ -21,6 +21,7 @@ Users can input a question or prompt into the text input field. Upon clicking th
 ### 2. Image Analysis
 
 Users can upload an image file (supported formats include jpg, jpeg, and png). The app analyzes the uploaded image using Google's Generative AI models and generates a descriptive caption or analysis of the image.
+![Alt text](https://github.com/Anuraggupta96/Gemini-Vision-App/blob/main/Screenshot%202.jpg)
 
 ### 3. User Interface
 
