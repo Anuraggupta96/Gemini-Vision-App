@@ -15,6 +15,7 @@ Gemini Vision App is an interactive application powered by generative AI. It all
 
 Users can input a question or prompt into the text input field. Upon clicking the "Tell me about the image" button, the app uses Google's Generative AI models to generate a text-based response related to the input question.
 
+![Alt text](https://github.com/Anuraggupta96/Gemini-Vision-App/blob/main/Screenshot%201.jpg)
 
 
 ### 2. Image Analysis
