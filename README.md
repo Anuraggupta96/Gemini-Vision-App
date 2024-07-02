@@ -1,69 +1,57 @@
-' Gemini Vision App
+# Gemini Vision App
 
-' Gemini Vision App is an interactive application powered by generative AI. It allows users to ask questions based on input text or analyze images to generate descriptions. This project is part of my 15-day 15 Gen AI application series, where I explore and implement various AI capabilities from basic to advanced.
+Gemini Vision App is an interactive application powered by generative AI. It allows users to ask questions based on input text or analyze images to generate descriptions. This project is part of my 15-day 15 Gen AI application series, where I explore and implement various AI capabilities from basic to advanced.
 
-' Features
+## Features
 
-' - Interactive Question-Answering: Ask questions based on input text.
-' - Image Analysis: Analyze images to generate descriptive captions.
-' - Streamlit Interface: User-friendly interface for easy interaction.
-' - Google's Generative AI Models: Utilizes advanced AI models for content generation.
+- **Interactive Question-Answering:** Ask questions based on input text.
+- **Image Analysis:** Analyze images to generate descriptive captions.
+- **Streamlit Interface:** User-friendly interface for easy interaction.
+- **Google's Generative AI Models:** Utilizes advanced AI models for content generation.
 
-' Functionality
+## Functionality
 
-' 1. Interactive Question-Answering
+### 1. Interactive Question-Answering
 
-' Users can input a question or prompt into the text input field. Upon clicking the "Tell me about the image" button, the app uses Google's Generative AI models to generate a text-based response related to the input question.
+Users can input a question or prompt into the text input field. Upon clicking the "Tell me about the image" button, the app uses Google's Generative AI models to generate a text-based response related to the input question.
 
-' 2. Image Analysis
 
-' Users can upload an image file (supported formats include jpg, jpeg, and png). The app analyzes the uploaded image using Google's Generative AI models and generates a descriptive caption or analysis of the image.
 
-' 3. User Interface
+### 2. Image Analysis
 
-' The Streamlit-based interface provides a straightforward user experience:
-' - Input Prompt: Text input field for entering questions or prompts.
-' - Image Upload: File upload option for images.
-' - Response Display: Displays the generated response or analysis in a clear format.
+Users can upload an image file (supported formats include jpg, jpeg, and png). The app analyzes the uploaded image using Google's Generative AI models and generates a descriptive caption or analysis of the image.
 
-' Installation
+### 3. User Interface
 
-' 1. Clone the repository:
+The Streamlit-based interface provides a straightforward user experience:
+- **Input Prompt:** Text input field for entering questions or prompts.
+- **Image Upload:** File upload option for images.
+- **Response Display:** Displays the generated response or analysis in a clear format.
 
-' git clone https://github.com/Anuraggupta96/Gemini-Vision-App.git
+## Installation
 
-' 2. Navigate into the project directory:
+1. **Clone the repository:**
 
-' cd Gemini-Vision-App
+   ```bash
+   git clone https://github.com/Anuraggupta96/Gemini-Vision-App.git
 
-' 3. Install dependencies:
+2. **Navigate into project directory:**
 
-' pip install -r requirements.txt
+   ```bash
+   cd Gemini-Vision-App
 
-' Usage
+3. **Installing Requirements:**
 
-' 1. Run the Streamlit app:
+   ```bash
+   pip install -r requirements.txt
 
-' streamlit run vision.py
+## Application Execution
+1. **Run the Streamlit app:**
 
-' 2. Open your web browser and go to the local URL provided (e.g., http://localhost:8501).
+   ```bash
+   streamlit run vision.py
 
-' Technologies Used
+2. **Open your web browser and go to the local URL provided (e.g., http://localhost:8501).**
 
-' - Python
-' - Streamlit
-' - Google's Generative AI (Gemini models)
-' - PIL (Python Imaging Library)
-' - dotenv
 
-' License
 
-' This project is licensed under the MIT License. See the LICENSE file for details.
-
-' Contributing
-
-' Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any problems.
-
-' Support
-
-' For support or questions, you can reach out to Anurag Gupta on GitHub: https://github.com/Anuraggupta96
